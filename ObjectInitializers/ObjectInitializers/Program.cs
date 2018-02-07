@@ -22,6 +22,13 @@ namespace ObjectInitializers
 
             Point finalPoint = new Point { X = 30, Y = 30 };
             finalPoint.DisplayStats();
+
+            Rectangle myRect = new Rectangle
+            {
+                TopLeft = new Point { X = 10, Y = 10 },
+                BottomRight = new Point { X = 200, Y = 200 }
+            };
+
             Console.ReadLine();
         }
     }
